@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: #ECECEC;
+    color: black;
+    padding: 20px;
+}
+
+.Link-One{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}

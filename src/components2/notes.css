@@ -1,0 +1,10 @@
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F9F5E3;
+    color: #000;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+}
