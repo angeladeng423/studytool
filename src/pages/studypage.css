@@ -1,7 +1,7 @@
-.container {
-    max-width: 900px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+.dog{
+    animation: transitionIn 2s;
+    width: 35%;
+    position: absolute;
+    left: 925px;
+    top: 300px;
 }

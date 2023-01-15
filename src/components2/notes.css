@@ -1,10 +1,15 @@
 .note{
-    display: flex;
-    flex-direction: column;
+    width: 190px;
+    min-height: 190px;
     justify-content: space-between;
-    background-color: #F9F5E3;
+    background-color: #e4e4e4;
     color: #000;
     border-radius: 10px;
-    padding: 1rem;
-    min-height: 170px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.inputbox{
+    border:none;
+    background-color: #e4e4e4
 }

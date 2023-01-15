@@ -1,0 +1,33 @@
+.task-container{
+    animation: transitionIn 2s;
+    position: absolute;
+    font-family: 'Inter';
+    width: 679px;
+    height: 250px;
+    left: 75px;
+    top: 664px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #FFF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px
+}
+
+.enter-item{
+    padding-left:245px;
+}
+
+.button-container{
+    padding-left: 270px;
+}
+
+.addButton{
+    font-family: 'Inter';
+    margin-right:15px;
+}
+
+.resetButton{
+    font-family: 'Inter';
+}

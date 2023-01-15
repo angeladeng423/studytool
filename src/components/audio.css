@@ -1,0 +1,28 @@
+.audiocontainers{
+    animation: transitionIn 2s;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 25px;
+    width: 679px;
+    position: absolute;
+    left: 850px;
+    top: 126px;
+    background: #FFF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.lcontainer{
+    display: block;
+}
+
+.buttonTest{
+    display: inline-block;
+    padding-right:5px;
+    margin-right:10px;
+    font-family: 'Inter'; 
+}
+
+

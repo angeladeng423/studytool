@@ -1,13 +1,15 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
 function Notes(){
     const [text, setText] = useState("This is a note!");
     const [updated, setUpdated] = useState('');
+    const ref = useRef()
 
-    const handleChange = (event) =>{
-        setText(event.target.value);
-        console.log("3");
-    }
+    // const handleChange = (event) =>{
+    //     setText(event.target.value);
+    //     console.log("3");
+    // }
+    // console.log(ref.current.value)
     
     const handleKeyDown = (event) =>{
         if(event.key === 'Enter'){
@@ -16,13 +18,15 @@ function Notes(){
         }
     }
 
-    function userInput({type}){
-        const input = <input
+    function userInput(){
+        const input = <input 
+            className = "inputbox"
             type="text"
             id="text"
             name="text"
-            value={updated}
-            onChange={handleChange}
+            // value={updated}
+            // onChange={handleChange}
+            ref={ref}
             onKeyDown={handleKeyDown}
         />
         return input;
@@ -30,12 +34,10 @@ function Notes(){
 
     return(
         <div className = "note">
+            <p>+</p>
             <span onClick={()=>{
-                setText(userInput("text"))
+                setText(userInput())
             }}>{text}</span>
-            <div className = "note-footer">
-                <small>space for notes!</small>
-            </div>
         </div>
     )
 }

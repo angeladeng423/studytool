@@ -1,4 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 .App{
-    display: flex;
+    display: block;
     height: 100%;
+}
+
+.main-image{
+    animation: transitionIn 2s;
+    position: absolute;
+    width: 533px;
+    height: 534px;
+    left: 10%;
+    top: 25%;
+    border-radius: 25px;
+}
+
+.title{
+    /* about us */
+    animation: transitionIn 2s;
+    position: absolute;
+    width: 206px;
+    height: 28px;
+    left: 50%;
+    top: 18%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.about{
+    animation: transitionIn 2s;
+    position: absolute;
+    width: 550px;
+    height: 120px;
+    left: 50%;
+    top: 28%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #9E9DA2;
+}
+
+.secondText{
+    display: flex;
+    align-items: center;
+}
+
+.mapcaption{
+    animation: transitionIn 2s;
+    position: absolute;
+    width: 554px;
+    height: 28px;
+    left: 50%;
+    top: 45%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.map{
+    animation: transitionIn 2s;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 50%;
+    top: 53%;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

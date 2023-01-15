@@ -38,9 +38,10 @@ function Pomodoro(){
                 {displayMessage && <div>Break time!</div>}
            </div>
            <div className = "timer">{timerMinutes}:{timerSeconds}</div>
-           <div className = "pause"><button onClick = {()=> {
+           <div className = "pause"><button className = "pauseButton" onClick = {()=> {
             if (paused === true){setPaused(false)}
-            else if (paused === false){setPaused(true)}}}>pause!</button></div>
+            else if (paused === false){setPaused(true)}}}>pause!</button>
+            </div>
         </div>
     )
 }

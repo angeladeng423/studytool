@@ -54,8 +54,12 @@ function AudioPlayer(){
     soundthunder.loop = true;
 
     return(
-        <div>
-            <button onClick = {()=>{
+        <div className = "audiocontainers">
+            <div className = "description">
+                <p>The following is an audio mixer you can use to layer different sounds.
+                Create your perfect white noise.</p></div>
+            <div className = "lcontainer">
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound === 1){
                     playSound = 0;
                     soundBeach.play()
@@ -64,7 +68,7 @@ function AudioPlayer(){
                     soundBeach.pause();
                 }
             }}>beach</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound2 === 1){
                     playSound2 = 0;
                     soundcars.play()
@@ -73,7 +77,7 @@ function AudioPlayer(){
                     soundcars.pause();
                 }
             }}>cars</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound3 === 1){
                     playSound3 = 0;
                     soundheavywind.play()
@@ -82,7 +86,7 @@ function AudioPlayer(){
                     soundheavywind.pause();
                 }
             }}>heavywind</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound4 === 1){
                     playSound4 = 0;
                     soundheelsstep.play()
@@ -91,7 +95,7 @@ function AudioPlayer(){
                     soundheelsstep.pause();
                 }
             }}>heelsstep</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound5 === 1){
                     playSound5 = 0;
                     soundnormalrain.play()
@@ -100,7 +104,7 @@ function AudioPlayer(){
                     soundnormalrain.pause();
                 }
             }}>normalrain</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound6 === 1){
                     playSound6 = 0;
                     soundrainonglass.play()
@@ -109,7 +113,7 @@ function AudioPlayer(){
                     soundrainonglass.pause();
                 }
             }}>rainonglass</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound7 === 1){
                     playSound7 = 0;
                     soundrainonumbrella.play()
@@ -118,7 +122,7 @@ function AudioPlayer(){
                     soundrainonumbrella.pause();
                 }
             }}>rainonumbrella</button>
-            <button onClick = {()=>{
+            <button className = "buttonTest" onClick = {()=>{
                 if (playSound8 === 1){
                     playSound8 = 0;
                     soundthunder.play()
@@ -127,6 +131,7 @@ function AudioPlayer(){
                     soundthunder.pause();
                 }
             }}>thunder</button>
+        </div>
         </div>
     )
 }

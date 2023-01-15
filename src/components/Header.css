@@ -1,13 +1,31 @@
 .header{
+    position: fixed;
     display: flex;
     align-items: center;
-    height: 65px;
+    height: 45px;
     background: #ECECEC;
     color: black;
     padding: 20px;
 }
 
+.logo{
+    display: inline-block;
+    width: 9%; 
+    margin-right: 20px;
+}
+
 .Link-One{
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Inter';
+    color: black;
+    padding: 5px;
+}
+
+.Link-Two{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Inter';
+    color: black;
+    padding: 20px;
 }
