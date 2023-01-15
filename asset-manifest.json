@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/studytool/static/css/main.cb7d60e0.css",
+    "main.js": "/studytool/static/js/main.21f9050c.js",
+    "static/media/heavywind.wav": "/studytool/static/media/heavywind.81a9ab877569e7a46053.wav",
+    "static/media/beach.wav": "/studytool/static/media/beach.fe2b8f026b526d7e1302.wav",
+    "static/media/cars.wav": "/studytool/static/media/cars.1a43c27a71a8c5dc75f8.wav",
+    "static/media/rainonglass.wav": "/studytool/static/media/rainonglass.2e9624207e6b792a39bc.wav",
+    "static/media/normalrain.wav": "/studytool/static/media/normalrain.7fc119cf5a69f13cdfc9.wav",
+    "static/media/thunder.wav": "/studytool/static/media/thunder.c19042794177e4cfd89f.wav",
+    "static/media/rainonumbrella.mp3": "/studytool/static/media/rainonumbrella.42c0c4f0b36645f7bb75.mp3",
+    "static/media/final.png": "/studytool/static/media/final.8eddf6b56d05e31c9934.png",
+    "static/media/heelsstep.mp3": "/studytool/static/media/heelsstep.070331bb6e16ea7d5292.mp3",
+    "static/media/Procreate1.png": "/studytool/static/media/Procreate1.81a5528bd5a793289d75.png",
+    "static/media/Group78.png": "/studytool/static/media/Group78.fafd9afc244e4d4e6c53.png",
+    "static/media/logo.png": "/studytool/static/media/logo.585cc29b449e2597a1e6.png",
+    "index.html": "/studytool/index.html",
+    "main.cb7d60e0.css.map": "/studytool/static/css/main.cb7d60e0.css.map",
+    "main.21f9050c.js.map": "/studytool/static/js/main.21f9050c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb7d60e0.css",
+    "static/js/main.21f9050c.js"
+  ]
+}
